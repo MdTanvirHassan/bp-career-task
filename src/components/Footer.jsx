@@ -19,21 +19,21 @@ const Footer = () => {
           <AiFillLinkedin className=" text-2xl hover:text-gray-200" />
         </span>
       </div>
-      <div className="container m-auto py-2">
+      <div className="container m-auto py-2 px-2">
         <div className="grid lg:grid-cols-3 gap-0">
-          <div className="md:col-span-1 px-4">
+          <div className="md:col-span-1 px-4 justify-center lg:justify-start items-start lg:items-center text-center lg:text-start">
             <img src={logo} alt="logo" className="w-[200px] h-[70px]" />
             <div className="py-2">
-              <p className="text-justify uppercase text-white/[.7] font-thin px-4">
+              <p className="text-justify uppercase text-white/[.7] font-thin px-4 pb-2">
                 Desh Career is Career based newsletter in Bengali language. This
                 newsletter has published weekly. This is published in every
                 Saturday at 12.00 PM.
               </p>
             </div>
           </div>
-          <div className="col-span-1 items-center justify-center text-center">
+          <div className="col-span-1 items-center justify-center text-center pb-2">
             <h2 className="text-lg font-bold">Privacy and Terms</h2>
-            <ul className="md:py-10  space-y-3">
+            <ul className="md:py-10 py-2 space-y-3">
               <li>
                 <a href="/#" className="hover:text-white">
                   Privacy Policy
@@ -51,9 +51,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-span-1 items-end justify-end text-end">
+          <div className="col-span-1 items-end justify-center lg:justify-end text-center lg:text-end">
             <h2 className="text-lg font-bold">Support</h2>
-            <ul className="md:py-10  space-y-3">
+            <ul className="md:py-10 py-2 space-y-3">
               <li>
                 <a href="/#" className="hover:text-white">
                   Affiliate Link

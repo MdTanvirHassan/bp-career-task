@@ -16,12 +16,12 @@ const Header = () => {
           <Navbar.Link href="/" active={true}>
             Home
           </Navbar.Link>
-          <Navbar.Link href="/navbars">Privacy Policy</Navbar.Link>
-          <Navbar.Link href="/navbars">Terms Condition</Navbar.Link>
+          <Navbar.Link href="/#privacy">Privacy Policy</Navbar.Link>
+          <Navbar.Link href="/#terms">Terms Condition</Navbar.Link>
           <Navbar.Link href="/about/us">About Us</Navbar.Link>
-          <Navbar.Link href="/navbars">Contact Us</Navbar.Link>
-          <Navbar.Link href="/navbars">Advertise</Navbar.Link>
-          <Navbar.Link href="/navbars"> <div type="button" className="bg-red-500 hover:bg-red-700 text-white p-2 rounded-md md:-mt-2">Join Now</div></Navbar.Link>
+          <Navbar.Link href="/#contact">Contact Us</Navbar.Link>
+          <Navbar.Link href="/#advertise">Advertise</Navbar.Link>
+          <Navbar.Link href="/#join"> <div type="button" className="bg-red-500 hover:bg-red-700 text-white p-2 rounded-md md:-mt-2">Join Now</div></Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </div>

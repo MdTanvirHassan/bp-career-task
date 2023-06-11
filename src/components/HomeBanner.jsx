@@ -3,7 +3,7 @@ import React from "react";
 const HomeBanner = () => {
   return (
     <div>
-      <div className="container m-auto py-10 md:py-16">
+      <div className="container m-auto py-10 md:py-16 px-2">
         <div className="grid lg:grid-cols-3">
           <div className="col-span-2">
             <h2 className="text-5xl font-bold py-2">
@@ -15,8 +15,8 @@ const HomeBanner = () => {
 
             <form className="bg-white py-2 shadow-md lg:mr-10">
               <label
-                for="search"
-                className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">
+                htmlFor="search"
+                className="mb-2 text-sm font-medium text-gray-900 sr-only">
                 Search
               </label>
               <div className="relative">
