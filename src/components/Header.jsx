@@ -13,12 +13,12 @@ const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Navbar.Link href="/navbars" active={true}>
+          <Navbar.Link href="/" active={true}>
             Home
           </Navbar.Link>
           <Navbar.Link href="/navbars">Privacy Policy</Navbar.Link>
           <Navbar.Link href="/navbars">Terms Condition</Navbar.Link>
-          <Navbar.Link href="/navbars">About Us</Navbar.Link>
+          <Navbar.Link href="/about/us">About Us</Navbar.Link>
           <Navbar.Link href="/navbars">Contact Us</Navbar.Link>
           <Navbar.Link href="/navbars">Advertise</Navbar.Link>
           <Navbar.Link href="/navbars"> <div type="button" className="bg-red-500 hover:bg-red-700 text-white p-2 rounded-md md:-mt-2">Join Now</div></Navbar.Link>
